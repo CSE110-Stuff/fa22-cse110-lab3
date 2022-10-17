@@ -18,6 +18,7 @@ header {
   padding: 30px 10%;
   background-color: hsl(230, 8%, 15%);
 }
+/* Changed overview color*/
 .overview{
   font-family: "Montserrat";
   font-weight: 500;
@@ -25,7 +26,7 @@ header {
   color: white;
   padding: 0px 20px 3pt 0px;
 }
-
+/* Modified navigation link fonts*/
 .navList{
   list-style: none;
   font-family: "Montserrat";
@@ -56,21 +57,25 @@ header {
 body{
   background-color: #E3E3E3;
 }
+/* Aligned header to middle*/
 h1{
  text-align: center;
 }
+/* Aligned date to middle*/
 #date{
   text-align: center;
 }
 strong{
   text-decoration-color: aqua;
 }
+/* Changing background color of footer*/
 footer{
   background-color: #F6F6F8;
 }
 b{
   color: #C60021;
 }
+/* Changed header color to red*/
 h2, h3{
   color:red;
 }
@@ -85,6 +90,7 @@ h2{
   padding-bottom: 1pc;
   padding-right: 0cm;
 }
+/* Created borders around names*/
 .names {
   background-color: whitesmoke;
   border-style: solid;
@@ -99,7 +105,7 @@ h2{
   margin: 0px 0px 0px 0px;
   padding: 0px 20px 0px 20px;
 }
-
+/* Created border around names*/
 .absent_names {
   background-color: whitesmoke;
   border: 1px solid slategray;
@@ -129,6 +135,7 @@ ul.aUL{
   display: inline-block;
   text-align: left;
 }
+/* Created flexbox of notes and images*/
 div.flexbox-container{
   display:flex;
   flex-direction: row;
@@ -142,6 +149,7 @@ div.flexbox-container{
  justify-content: space-around;
 
 }
+/* changed paragraph color*/
 details > p{
   color:firebrick;
 }
@@ -155,6 +163,7 @@ details > p{
 #qa ~li{
   color:firebrick;
 }
+/* Created grid of video and audio recordings*/
 .gridcontainer{
   display:grid;
   grid-template-columns:auto;
@@ -171,7 +180,7 @@ details > p{
  a[href]{
   color: black;
  }
-
+/* Changed form spacing*/ 
  form{
   margin: 30px 60vw 0px 30px;
   padding: 0px;
